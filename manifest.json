@@ -1,0 +1,23 @@
+{
+  "name": "CMGT PWA Showcase",
+  "short_name": "CMGT Showcase",
+  "start_url": ".",
+  "id": "/",
+  "background_color": "#f0f8ff",
+  "theme_color": "#c4e2fd",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

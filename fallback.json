@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "project": {
+                "title": "Oops!",
+                "tagline": "Can't find what you're looking for.. Page must be offline.",
+                "screenshots": [
+                    "./images/fallback.jpg"
+                ],
+                "tags": [
+                    {
+                        "name": "404"
+                    }
+                ],
+                "urlToImage": "/images/fallback.jpg"
+            }
+        }
+    ]
+}

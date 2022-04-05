@@ -1,0 +1,107 @@
+/* Hide offline only stuff by default */
+[data-offline-only] {
+  display: none;
+}
+
+body {
+  width: 100vw !important;
+  background-color: #f0f0f0;
+  font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  overflow-x: hidden;
+}
+
+.title {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-red {
+  color: #cc0133;
+}
+
+.red {
+  fill: #cc0133;
+}
+
+.light {
+  fill: #f0f0f0;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.bg-hr-red {
+  --bg-opacity: 1;
+  background-color: #cc0133;
+  background-color: rgba(204, 1, 51, var(--bg-opacity));
+}
+
+.grey-footer {
+  background-color: #cccc;
+}
+
+.dark-grey-footer {
+  background-color: #999999;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+}
+
+.header-spacing {
+  height: 70px;
+  box-sizing: border-box;
+  border: 0 solid #e2e8f0;
+}
+
+.siteHeader {
+  background: url("../images/gradient.png") 0% 0% / cover,
+    url("../images/tempbanner.jpg") center center no-repeat;
+  min-height: 580px;
+  background-size: 100%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+#navbar h5 {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 48px;
+  text-decoration: none;
+}
